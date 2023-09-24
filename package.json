@@ -1,0 +1,33 @@
+{
+  "name": "ecomm-backend",
+  "version": "1.0.0",
+  "description": "Backend service for an ecommerce platform build from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveenkumar2098/ecomm-backend.git"
+  },
+  "author": "Naveen Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveenkumar2098/ecomm-backend/issues"
+  },
+  "homepage": "https://github.com/naveenkumar2098/ecomm-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^8.4.1",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.7",
+    "nodemon": "^3.0.1",
+    "cors": "^2.8.5"
+  }
+}
